@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VictorainPlumbing.Domain\VictorainPlumbing.Domain.csproj" />
+    <ProjectReference Include="..\VictorianPlumbingTest.Dto\VictorianPlumbingTest.Dto.csproj" />
+    <ProjectReference Include="..\VictorianPlumbingTest.Repository\VictorianPlumbingTest.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

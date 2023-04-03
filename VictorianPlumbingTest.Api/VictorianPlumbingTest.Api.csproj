@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VictorainPlumbing.Mappings\VictorainPlumbing.Mappings.csproj" />
+    <ProjectReference Include="..\VictorianPlumbingTest.Dto\VictorianPlumbingTest.Dto.csproj" />
+    <ProjectReference Include="..\VictorianPlumbingTest.Services\VictorianPlumbingTest.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

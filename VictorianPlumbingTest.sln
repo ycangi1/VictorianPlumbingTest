@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorianPlumbingTest.Services", "VictorianPlumbingTest.Services\VictorianPlumbingTest.Services.csproj", "{3364A19A-F6D7-4C2D-B2EE-7C7F24E75C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorianPlumbingTest.Repository", "VictorianPlumbingTest.Repository\VictorianPlumbingTest.Repository.csproj", "{A43707F5-C5AD-406A-902B-5B32C7795E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorianPlumbingTest.Dto", "VictorianPlumbingTest.Dto\VictorianPlumbingTest.Dto.csproj", "{354BAD8D-86E7-4004-9D89-CF06C5A99F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorianPlumbingTest.Api", "VictorianPlumbingTest.Api\VictorianPlumbingTest.Api.csproj", "{BCD1424B-8842-4A10-A0AB-48FDF44E8675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorainPlumbing.Domain", "VictorainPlumbing.Domain\VictorainPlumbing.Domain.csproj", "{8DDF53BF-C9B0-48D0-B89C-F27A89F2BF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorainPlumbing.Mappings", "VictorainPlumbing.Mappings\VictorainPlumbing.Mappings.csproj", "{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3364A19A-F6D7-4C2D-B2EE-7C7F24E75C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3364A19A-F6D7-4C2D-B2EE-7C7F24E75C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3364A19A-F6D7-4C2D-B2EE-7C7F24E75C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3364A19A-F6D7-4C2D-B2EE-7C7F24E75C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43707F5-C5AD-406A-902B-5B32C7795E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43707F5-C5AD-406A-902B-5B32C7795E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43707F5-C5AD-406A-902B-5B32C7795E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43707F5-C5AD-406A-902B-5B32C7795E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354BAD8D-86E7-4004-9D89-CF06C5A99F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354BAD8D-86E7-4004-9D89-CF06C5A99F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354BAD8D-86E7-4004-9D89-CF06C5A99F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354BAD8D-86E7-4004-9D89-CF06C5A99F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD1424B-8842-4A10-A0AB-48FDF44E8675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD1424B-8842-4A10-A0AB-48FDF44E8675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD1424B-8842-4A10-A0AB-48FDF44E8675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD1424B-8842-4A10-A0AB-48FDF44E8675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDF53BF-C9B0-48D0-B89C-F27A89F2BF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDF53BF-C9B0-48D0-B89C-F27A89F2BF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDF53BF-C9B0-48D0-B89C-F27A89F2BF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDF53BF-C9B0-48D0-B89C-F27A89F2BF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {208E8BD2-F3AC-4587-907F-7E7966123E04}
+	EndGlobalSection
+EndGlobal
