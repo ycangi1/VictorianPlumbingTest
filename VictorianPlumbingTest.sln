@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorainPlumbing.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorainPlumbing.Mappings", "VictorainPlumbing.Mappings\VictorainPlumbing.Mappings.csproj", "{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VictorianPlumbingTest.Database", "VictorianPlumbingTest.Database\VictorianPlumbingTest.Database.sqlproj", "{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,12 @@ Global
 		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ADDAD2B-15D5-4E36-BFEF-55117BF52DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB1FEE7-6A74-45DF-BE5C-CAC8E0C9A50E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
